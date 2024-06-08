@@ -471,7 +471,7 @@
     
     .right-section {
         align-items: flex;
-        font-size: 0.5rem;
+        font-size: 0.45rem;
         gap: 6px;
         align-items: center;
         margin-bottom: -15px;
@@ -504,7 +504,7 @@
     }
     
     .contact-button {
-        font-size: 0.5rem;
+        font-size: 0.45rem;
         padding: 4px 8px;
 
     }
