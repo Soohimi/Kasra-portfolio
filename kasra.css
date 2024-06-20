@@ -131,6 +131,8 @@
     letter-spacing: -2px;
     white-space: nowrap; 
     margin-bottom: 0;
+    font-family: "SF Pro Display";
+
 }
 
 .design-continer {
@@ -223,16 +225,17 @@
 
 .time-circle {
     display: flex;
-    width: 64px;
-    height: 64px;
+    width: 2rem;
+    height: 2rem;
     /* background-color: #B1F08B; */
     margin-top: 27px;
+    margin-right: 0.5rem;
 }
 
 .recent {
     color: #1B1E1A;
     font-family: "SF Pro Display";
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 119.455%; /* 57.339px */
@@ -240,7 +243,7 @@
     justify-content: center;
     /* background-color: pink; */
     white-space: nowrap; 
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
 }
 
 .project-lorem {
@@ -253,6 +256,7 @@
     letter-spacing: -0.48px;
     height: 4rem;
     width: 53%;
+    margin-top: 0;
 }
 
 
@@ -270,6 +274,7 @@
     width: 100%;
     height: auto;
     position: relative ;
+    margin-top: 1rem;
     }
 
 .project-works img {
@@ -290,7 +295,7 @@
     /* background-color: aqua; */
     align-self: flex-end;
     left: 24px;
-    bottom: 16px;
+    bottom: 24px;
     white-space: nowrap;
     color: #FFF;
     font-family: "SF Pro Display";
@@ -315,6 +320,9 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    font-family: "SF Pro Display";
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .client-left {
@@ -329,10 +337,11 @@
     display: flex;
     color: #202125;
     font-family: "SF Pro Display";
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     letter-spacing: -0.96px;
+    margin-bottom: 0;
     /* background-color: pink; */
 }
 
@@ -344,6 +353,8 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.48px;
+    /* background-color: #B1F08B; */
+    margin-top: -16px;
 }
 
 .client-right {
@@ -488,7 +499,6 @@
     .name {
         margin: 0;
         margin-right: -20px;
-        white-space: wrap;
         margin-left: -20px;
     }
 
